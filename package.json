@@ -1,0 +1,16 @@
+{
+  "name": "delirium-monitor",
+  "version": "1.0.0",
+  "description": "Electron app to monitor patient activity/sway from MPU6050 Arduino to aid delirium detection",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^26.0.0"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.0",
+    "serialport": "^11.0.0"
+  }
+}

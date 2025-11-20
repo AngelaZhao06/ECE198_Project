@@ -1,0 +1,19 @@
+body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f3f6f9; color:#111;}
+header { display:flex; justify-content:space-between; align-items:center; padding:12px 20px; background:#0b5; }
+h1 { margin:0; color:#043; }
+#controls { display:flex; gap:8px; align-items:center; }
+button { padding:8px 10px; border-radius:6px; border:none; cursor:pointer; }
+button:disabled { opacity:0.5; cursor:default; }
+main { padding:16px; display:grid; gap:12px; grid-template-rows:auto auto 1fr; }
+.card { background:#fff; padding:12px; border-radius:10px; box-shadow:0 6px 18px rgba(10,10,10,0.06); }
+#topRow { display:flex; gap:12px; }
+#topRow .card { flex:1; }
+#charts { display:flex; gap:12px; }
+.chartCard { flex:1; background:#fff; padding:12px; border-radius:10px; }
+#eventsTable { width:100%; border-collapse:collapse; }
+#eventsTable th, #eventsTable td { padding:8px; border-bottom:1px solid #eee; text-align:left; }
+.risk-normal { color: #2d7a2d; font-weight:700; }
+.risk-elevated { color: #a66a00; font-weight:700; }
+.risk-high { color: #b32b00; font-weight:700; }
+.risk-critical { color: #7b0313; font-weight:900; background:#ffddd8; padding:4px; border-radius:6px; }
+#alertsBox { min-height:40px; }

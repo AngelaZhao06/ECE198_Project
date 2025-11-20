@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Serial Monitor</title>
+  <style>
+    body { font-family: Arial; padding: 20px; }
+    #data { 
+      white-space: pre-line; 
+      background: #f1f1f1; 
+      padding: 10px; 
+      border-radius: 5px;
+      height: 300px;
+      overflow-y: scroll;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h2>Arduino Serial Output</h2>
+
+  <button id="refresh">Refresh Ports</button>
+  <select id="ports"></select>
+  <button id="connect">Connect</button>
+  <button id="disconnect">Disconnect</button>
+
+  <h3>Incoming Data:</h3>
+  <div id="data"></div>
+
+  <script src="render.js"></script>
+</body>
+</html>
